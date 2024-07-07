@@ -114,6 +114,7 @@ html{
     font-weight: 700;
     border: none;
     outline: none;
+    cursor: pointer;
  }
 .banner-imges{
     margin-top: 4rem;
@@ -252,4 +253,32 @@ html{
     outline: 5px solid black;
     outline-offset: -2rem ;
     border-radius: 50%;
+}
+/* =====================PRODUCT SECTION=================== */
+.product-section{
+    width: 1150px;
+    height: auto;
+    margin: 5rem auto;
+}
+.products img{
+    width: 380px;
+    height: 320px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: .2rem;
+}
+.product-content h3{
+    color: red;
+    font-size: 1.1rem;
+}
+.product-content h1{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+.product-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: .9rem;
+    line-height: 1.6rem;
+    max-width: 45rem;
+    margin-bottom: 1.5rem;
 }

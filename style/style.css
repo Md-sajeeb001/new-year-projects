@@ -282,3 +282,71 @@ html{
     max-width: 45rem;
     margin-bottom: 1.5rem;
 }
+/* ===================EMAIL SECTION===================== */
+.email-section{
+    width: 1150px;
+    height: auto;
+    margin: 5rem auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: .5rem;
+}
+.email-containet{
+    text-align: center;
+    padding: 4rem 13rem;
+}
+.email-containet h1{
+    margin: 1rem 0;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.email-containet p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: .9rem;
+    line-height: 1.6rem;
+}
+.email-containet input{
+    width: 25rem;
+    height: 3rem;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    outline: none;
+    border: none;
+}
+.email-containet button{
+    padding: .8rem 2rem;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+/* =====================FOOTER SECTION=================== */
+.footer-section{
+    width: 100%;
+    padding: 8rem 7rem;
+    background: rgb(7, 2, 17);
+    color: #fff;
+}
+.first-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-media{
+    width: 100%;
+    margin: 4rem auto;
+    border: 1px solid #19152c;
+    text-align: center; 
+}
+.social-media a i{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding: 3rem 0;
+}

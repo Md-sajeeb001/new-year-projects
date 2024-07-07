@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header-section{
+    width: 1100px;
+    height: 530px;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0,0.8), transparent) ,url('../images/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    margin: 3rem auto;
+    border-radius: 8px;
+    /* background-attachment: fixed; */
+ }
+ .header-content{
+    text-align: center;
+    color: #fff;
+    width: 400px;
+    height: 150px;
+    margin:  0 auto;
+ }
+ .header{
+    padding-top: 12rem;
+ }
+ .header-content h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+ }
+ .header-content h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin: 1rem 0;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+ }
+
+ /* ===============OFFER SECTION================ */
+ /* .offer-section{
+    margin: 0 auto;
+ } */
+ .offer-container{
+    width: 660px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border-radius: .5rem;
+ }
+ .offer-content{
+    text-align: center;
+ }
+ .offer-content h1{
+    font-size: 2.7rem;
+    color: red;
+    font-weight: bolder;
+ }
+ .offer-content h4{
+    font-size: .9rem;
+    color: red;
+    margin-top: 1.7rem;
+ }
+ .offer-content h2{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+ }
+ .newyear-img{
+    width: 100%;
+ }

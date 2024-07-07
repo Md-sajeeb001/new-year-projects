@@ -147,3 +147,60 @@ html{
     text-align: center;
     margin-top: 2.6rem;
 }
+/* ========================OFFER DISPRIPTION======================== */
+.offer-discription{
+    width: 1150px;
+    height: auto;
+    margin: 5rem auto;
+    background: linear-gradient(180deg, rgb(0, 0, 0,0.2), transparent);
+    border-radius: .2rem;
+}
+.offer{
+    padding: 2rem;
+}
+.offer-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 300px;
+}
+.left h3{
+    color: red;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.left h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.left p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: .8rem;
+    line-height: 1.6rem;
+}
+.middel-img{
+    width: 300px;
+    outline: 5px solid black;
+    border-radius: 50%;
+    outline-offset: 1rem;
+}
+.right{
+    width: 300px;
+}
+.right img{
+    width: 100px;
+    margin-top: 1.8rem;
+}
+.right h2{
+    color: red;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.right p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: .8rem;
+    line-height: 1.6rem;
+    margin-top: 1rem;
+}
